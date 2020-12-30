@@ -1,4 +1,4 @@
-# Yugigo
+# Yugigo [![Go Reference](https://pkg.go.dev/badge/github.com/FruitPunchSamurai1961/yugigo.svg)](https://pkg.go.dev/github.com/FruitPunchSamurai1961/yugigo)
 
 **Version 1.0.0**
 ________________________________________________________
