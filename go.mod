@@ -1,3 +1,3 @@
-module github.com/sheshan1961/yugigo
+module github.com/FruitPunchSamurai1961/yugigo
 
 go 1.15
