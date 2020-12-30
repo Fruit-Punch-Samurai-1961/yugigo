@@ -1,4 +1,4 @@
-# Yugigo [![Go Reference](https://pkg.go.dev/badge/github.com/FruitPunchSamurai1961/yugigo.svg)](https://pkg.go.dev/github.com/FruitPunchSamurai1961/yugigo)
+# Yugigo [![Go Reference](https://pkg.go.dev/badge/github.com/FruitPunchSamurai1961/yugigo.svg)](https://pkg.go.dev/github.com/FruitPunchSamurai1961/yugigo) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Fruit-Punch-Samurai-1961/yugigo/blob/master/LICENSE)
 
 **Version 1.0.0**
 ________________________________________________________
