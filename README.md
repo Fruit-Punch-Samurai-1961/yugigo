@@ -3,7 +3,7 @@
 **Version 1.0.0**
 ________________________________________________________
 
-Yugigo is a Go library wrapper for the Yu-Gi-Oh! API by YGOPRODeck.
+Yugigo is a Go library wrapper for the [Yu-Gi-Oh! API](https://db.ygoprodeck.com/api-guide/) by YGOPRODeck.
 
 ## Installation
 
