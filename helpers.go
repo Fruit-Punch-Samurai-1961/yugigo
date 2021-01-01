@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"net/url"
 	"reflect"
 	"strconv"
 	"strings"
@@ -93,19 +94,20 @@ func checkOffsetNum(search *CardSearch, params map[string]interface{}) {
 /*
 makeUrl adds the given queries into the url string
 */
-func makeUrl(url string, params map[string]interface{}) string {
+func makeUrl(defaulturl string, params map[string]interface{}) string {
 	//loop through the map
 	//the only thing we have to check for is if it's a string or a []string
 	for key, value := range params {
 		if _, ok := value.([]string); !ok {
-			value = strings.ReplaceAll(strings.TrimSpace(value.(string)), " ", "%20")
-			url += key + "=" + value.(string) + "&"
+			//encode the query
+			value = url.QueryEscape(value.(string))
+			defaulturl += key + "=" + value.(string) + "&"
 		} else {
 			for _, str := range value.([]string) {
 				str = strings.ReplaceAll(strings.TrimSpace(str), " ", "%20")
-				url += key + "=" + str + "&"
+				defaulturl += key + "=" + str + "&"
 			}
 		}
 	}
-	return url
+	return defaulturl
 }
