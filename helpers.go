@@ -100,7 +100,7 @@ func makeUrl(defaulturl string, params map[string]interface{}) string {
 	for key, value := range params {
 		if _, ok := value.([]string); !ok {
 			//encode the query
-			value = url.QueryEscape(value.(string))
+			value = url.QueryEscape(strings.TrimSpace(value.(string)))
 			defaulturl += key + "=" + value.(string) + "&"
 		} else {
 			for _, str := range value.([]string) {
