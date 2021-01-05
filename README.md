@@ -1,6 +1,6 @@
 # Yugigo [![Go Reference](https://pkg.go.dev/badge/github.com/FruitPunchSamurai1961/yugigo.svg)](https://pkg.go.dev/github.com/FruitPunchSamurai1961/yugigo) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Fruit-Punch-Samurai-1961/yugigo/blob/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/FruitPunchSamurai1961/yugigo)](https://goreportcard.com/report/github.com/FruitPunchSamurai1961/yugigo)
 
-**Version 1.0.0**
+**Version 1.0.2**
 ________________________________________________________
 
 Yugigo is a Go library wrapper for the [Yu-Gi-Oh! API](https://db.ygoprodeck.com/api-guide/) by YGOPRODeck.
